@@ -1,0 +1,13 @@
+Ad Soyad : Kerim Caglar
+Okul İş :İOS Egitmen
+Swift bilgisi : ileri
+Yaş: 27
+Yaşadığım Sehir: İstanbul / Pendik
+İnstagram: kerimcaglar_ios
+ 
+Ad Soyad: Tuba Uzun
+Okul: Uludag Universitesi
+Swift Bilgisi : baslangic
+Yas: 25
+Yasadıgım Sehir: Bursa
+İnstagram: tubauzunnnn
