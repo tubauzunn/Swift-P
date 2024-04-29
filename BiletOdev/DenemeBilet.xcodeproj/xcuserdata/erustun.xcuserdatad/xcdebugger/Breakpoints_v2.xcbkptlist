@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "9D64779D-2E2E-4499-837C-BA0660A5235B"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9F27D16C-EC03-44FE-AAA3-B80E3C42DAA9"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DenemeBilet/Bilet.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "46"
+            endingLineNumber = "46"
+            landmarkName = "koltukAyir(koltukSayisi:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FAF0EAA7-91D4-44EA-A93C-29101A42EC00"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DenemeBilet/Bilet.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "51"
+            endingLineNumber = "51"
+            landmarkName = "koltukNoEkle(numara:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "FAF0EAA7-91D4-44EA-A93C-29101A42EC00 - d15b1059dbb35f20"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "DenemeBilet.Bilet.koltukNoEkle(numara: Swift.Int) -&gt; ()"
+                  moduleName = "DenemeBilet"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/erustun/Desktop/denemeBilet/DenemeBilet/DenemeBilet/Bilet.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "78"
+                  endingLineNumber = "78"
+                  offsetFromSymbolStart = "83">
+               </Location>
+               <Location
+                  uuid = "FAF0EAA7-91D4-44EA-A93C-29101A42EC00 - d15b1059dbb35f07"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "DenemeBilet.Bilet.koltukNoEkle(numara: Swift.Int) -&gt; ()"
+                  moduleName = "DenemeBilet"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/erustun/Desktop/denemeBilet/DenemeBilet/DenemeBilet/Bilet.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "79"
+                  endingLineNumber = "79"
+                  offsetFromSymbolStart = "83">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "148FE93F-21D6-4596-8025-ADD1CEDB8631"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DenemeBilet/Bilet.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "52"
+            endingLineNumber = "52"
+            landmarkName = "koltukNoEkle(numara:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "148FE93F-21D6-4596-8025-ADD1CEDB8631 - d15b1059dbb35f07"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "DenemeBilet.Bilet.koltukNoEkle(numara: Swift.Int) -&gt; ()"
+                  moduleName = "DenemeBilet"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/erustun/Desktop/denemeBilet/DenemeBilet/DenemeBilet/Bilet.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "79"
+                  endingLineNumber = "79"
+                  offsetFromSymbolStart = "180">
+               </Location>
+               <Location
+                  uuid = "148FE93F-21D6-4596-8025-ADD1CEDB8631 - d15b1059dbb35fe6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "DenemeBilet.Bilet.koltukNoEkle(numara: Swift.Int) -&gt; ()"
+                  moduleName = "DenemeBilet"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/erustun/Desktop/denemeBilet/DenemeBilet/DenemeBilet/Bilet.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "80"
+                  endingLineNumber = "80"
+                  offsetFromSymbolStart = "180">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "84DD79A4-94C2-48BB-BB98-4762514D5BB4"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DenemeBilet/Bilet.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "54"
+            endingLineNumber = "54"
+            landmarkName = "koltukNoEkle(numara:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "84DD79A4-94C2-48BB-BB98-4762514D5BB4 - d15b1059dbb35fc5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "DenemeBilet.Bilet.koltukNoEkle(numara: Swift.Int) -&gt; ()"
+                  moduleName = "DenemeBilet"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/erustun/Desktop/denemeBilet/DenemeBilet/DenemeBilet/Bilet.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "81"
+                  endingLineNumber = "81"
+                  offsetFromSymbolStart = "296">
+               </Location>
+               <Location
+                  uuid = "84DD79A4-94C2-48BB-BB98-4762514D5BB4 - d15b1059dbb35fa4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "DenemeBilet.Bilet.koltukNoEkle(numara: Swift.Int) -&gt; ()"
+                  moduleName = "DenemeBilet"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/erustun/Desktop/denemeBilet/DenemeBilet/DenemeBilet/Bilet.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "82"
+                  endingLineNumber = "82"
+                  offsetFromSymbolStart = "296">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4D87488E-6A61-4532-808E-ACECC5777772"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DenemeBilet/Bilet.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "14"
+            endingLineNumber = "14"
+            landmarkName = "Bilet"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "324C1FC3-F276-40B7-99CF-94386E13C229"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DenemeBilet/Bilet.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "init(yolcu:tarih:saat:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "324C1FC3-F276-40B7-99CF-94386E13C229 - ce6e39c948a98cea"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "DenemeBilet.Bilet.init(yolcu: DenemeBilet.Yolcu, tarih: DenemeBilet.Tarih, saat: DenemeBilet.Saat) -&gt; DenemeBilet.Bilet"
+                  moduleName = "DenemeBilet"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/erustun/Desktop/denemeBilet/DenemeBilet/DenemeBilet/Bilet.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "50"
+                  endingLineNumber = "50"
+                  offsetFromSymbolStart = "424">
+               </Location>
+               <Location
+                  uuid = "324C1FC3-F276-40B7-99CF-94386E13C229 - ce6e39c948a98cea"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "DenemeBilet.Bilet.init(yolcu: DenemeBilet.Yolcu, tarih: DenemeBilet.Tarih, saat: DenemeBilet.Saat) -&gt; DenemeBilet.Bilet"
+                  moduleName = "DenemeBilet"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/erustun/Desktop/denemeBilet/DenemeBilet/DenemeBilet/Bilet.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "50"
+                  endingLineNumber = "50"
+                  offsetFromSymbolStart = "329">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B37F4712-3BB0-47EC-A8D0-A0156D1C2222"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DenemeBilet/Bilet.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "26"
+            endingLineNumber = "26"
+            landmarkName = "yazd&#x131;r()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "621AF3A8-5B03-4474-BE30-5543DD686C55"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DenemeBilet/Bilet.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
+            landmarkName = "yazd&#x131;r()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

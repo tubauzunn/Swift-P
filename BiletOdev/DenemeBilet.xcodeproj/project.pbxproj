@@ -1,0 +1,632 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		254BBB622BDA955C0020C375 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 254BBB612BDA955C0020C375 /* AppDelegate.swift */; };
+		254BBB642BDA955C0020C375 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 254BBB632BDA955C0020C375 /* SceneDelegate.swift */; };
+		254BBB662BDA955C0020C375 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 254BBB652BDA955C0020C375 /* ViewController.swift */; };
+		254BBB692BDA955C0020C375 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 254BBB672BDA955C0020C375 /* Main.storyboard */; };
+		254BBB6B2BDA95600020C375 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 254BBB6A2BDA95600020C375 /* Assets.xcassets */; };
+		254BBB6E2BDA95600020C375 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 254BBB6C2BDA95600020C375 /* LaunchScreen.storyboard */; };
+		254BBB792BDA95600020C375 /* DenemeBiletTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 254BBB782BDA95600020C375 /* DenemeBiletTests.swift */; };
+		254BBB832BDA95600020C375 /* DenemeBiletUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 254BBB822BDA95600020C375 /* DenemeBiletUITests.swift */; };
+		254BBB852BDA95600020C375 /* DenemeBiletUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 254BBB842BDA95600020C375 /* DenemeBiletUITestsLaunchTests.swift */; };
+		254BBB922BDA95940020C375 /* Bilet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 254BBB912BDA95940020C375 /* Bilet.swift */; };
+		254BBB942BDA963E0020C375 /* Yolcu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 254BBB932BDA963E0020C375 /* Yolcu.swift */; };
+		254BBB962BDA96BC0020C375 /* Tarih.swift in Sources */ = {isa = PBXBuildFile; fileRef = 254BBB952BDA96BC0020C375 /* Tarih.swift */; };
+		254BBB982BDA96F30020C375 /* Saat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 254BBB972BDA96F30020C375 /* Saat.swift */; };
+		8B321B1E2BDE8DD90017B998 /* BiletViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B321B1D2BDE8DD80017B998 /* BiletViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		254BBB752BDA95600020C375 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 254BBB562BDA955C0020C375 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 254BBB5D2BDA955C0020C375;
+			remoteInfo = DenemeBilet;
+		};
+		254BBB7F2BDA95600020C375 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 254BBB562BDA955C0020C375 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 254BBB5D2BDA955C0020C375;
+			remoteInfo = DenemeBilet;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		254BBB5E2BDA955C0020C375 /* DenemeBilet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DenemeBilet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		254BBB612BDA955C0020C375 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		254BBB632BDA955C0020C375 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		254BBB652BDA955C0020C375 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		254BBB682BDA955C0020C375 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		254BBB6A2BDA95600020C375 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		254BBB6D2BDA95600020C375 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		254BBB6F2BDA95600020C375 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		254BBB742BDA95600020C375 /* DenemeBiletTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DenemeBiletTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		254BBB782BDA95600020C375 /* DenemeBiletTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DenemeBiletTests.swift; sourceTree = "<group>"; };
+		254BBB7E2BDA95600020C375 /* DenemeBiletUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DenemeBiletUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		254BBB822BDA95600020C375 /* DenemeBiletUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DenemeBiletUITests.swift; sourceTree = "<group>"; };
+		254BBB842BDA95600020C375 /* DenemeBiletUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DenemeBiletUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		254BBB912BDA95940020C375 /* Bilet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bilet.swift; sourceTree = "<group>"; };
+		254BBB932BDA963E0020C375 /* Yolcu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Yolcu.swift; sourceTree = "<group>"; };
+		254BBB952BDA96BC0020C375 /* Tarih.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tarih.swift; sourceTree = "<group>"; };
+		254BBB972BDA96F30020C375 /* Saat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Saat.swift; sourceTree = "<group>"; };
+		8B321B1D2BDE8DD80017B998 /* BiletViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BiletViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		254BBB5B2BDA955C0020C375 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		254BBB712BDA95600020C375 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		254BBB7B2BDA95600020C375 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		254BBB552BDA955C0020C375 = {
+			isa = PBXGroup;
+			children = (
+				254BBB602BDA955C0020C375 /* DenemeBilet */,
+				254BBB772BDA95600020C375 /* DenemeBiletTests */,
+				254BBB812BDA95600020C375 /* DenemeBiletUITests */,
+				254BBB5F2BDA955C0020C375 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		254BBB5F2BDA955C0020C375 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				254BBB5E2BDA955C0020C375 /* DenemeBilet.app */,
+				254BBB742BDA95600020C375 /* DenemeBiletTests.xctest */,
+				254BBB7E2BDA95600020C375 /* DenemeBiletUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		254BBB602BDA955C0020C375 /* DenemeBilet */ = {
+			isa = PBXGroup;
+			children = (
+				254BBB612BDA955C0020C375 /* AppDelegate.swift */,
+				254BBB632BDA955C0020C375 /* SceneDelegate.swift */,
+				254BBB652BDA955C0020C375 /* ViewController.swift */,
+				254BBB672BDA955C0020C375 /* Main.storyboard */,
+				254BBB6A2BDA95600020C375 /* Assets.xcassets */,
+				254BBB6C2BDA95600020C375 /* LaunchScreen.storyboard */,
+				254BBB6F2BDA95600020C375 /* Info.plist */,
+				254BBB912BDA95940020C375 /* Bilet.swift */,
+				254BBB932BDA963E0020C375 /* Yolcu.swift */,
+				254BBB952BDA96BC0020C375 /* Tarih.swift */,
+				254BBB972BDA96F30020C375 /* Saat.swift */,
+				8B321B1D2BDE8DD80017B998 /* BiletViewController.swift */,
+			);
+			path = DenemeBilet;
+			sourceTree = "<group>";
+		};
+		254BBB772BDA95600020C375 /* DenemeBiletTests */ = {
+			isa = PBXGroup;
+			children = (
+				254BBB782BDA95600020C375 /* DenemeBiletTests.swift */,
+			);
+			path = DenemeBiletTests;
+			sourceTree = "<group>";
+		};
+		254BBB812BDA95600020C375 /* DenemeBiletUITests */ = {
+			isa = PBXGroup;
+			children = (
+				254BBB822BDA95600020C375 /* DenemeBiletUITests.swift */,
+				254BBB842BDA95600020C375 /* DenemeBiletUITestsLaunchTests.swift */,
+			);
+			path = DenemeBiletUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		254BBB5D2BDA955C0020C375 /* DenemeBilet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 254BBB882BDA95600020C375 /* Build configuration list for PBXNativeTarget "DenemeBilet" */;
+			buildPhases = (
+				254BBB5A2BDA955C0020C375 /* Sources */,
+				254BBB5B2BDA955C0020C375 /* Frameworks */,
+				254BBB5C2BDA955C0020C375 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DenemeBilet;
+			productName = DenemeBilet;
+			productReference = 254BBB5E2BDA955C0020C375 /* DenemeBilet.app */;
+			productType = "com.apple.product-type.application";
+		};
+		254BBB732BDA95600020C375 /* DenemeBiletTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 254BBB8B2BDA95600020C375 /* Build configuration list for PBXNativeTarget "DenemeBiletTests" */;
+			buildPhases = (
+				254BBB702BDA95600020C375 /* Sources */,
+				254BBB712BDA95600020C375 /* Frameworks */,
+				254BBB722BDA95600020C375 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				254BBB762BDA95600020C375 /* PBXTargetDependency */,
+			);
+			name = DenemeBiletTests;
+			productName = DenemeBiletTests;
+			productReference = 254BBB742BDA95600020C375 /* DenemeBiletTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		254BBB7D2BDA95600020C375 /* DenemeBiletUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 254BBB8E2BDA95600020C375 /* Build configuration list for PBXNativeTarget "DenemeBiletUITests" */;
+			buildPhases = (
+				254BBB7A2BDA95600020C375 /* Sources */,
+				254BBB7B2BDA95600020C375 /* Frameworks */,
+				254BBB7C2BDA95600020C375 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				254BBB802BDA95600020C375 /* PBXTargetDependency */,
+			);
+			name = DenemeBiletUITests;
+			productName = DenemeBiletUITests;
+			productReference = 254BBB7E2BDA95600020C375 /* DenemeBiletUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		254BBB562BDA955C0020C375 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					254BBB5D2BDA955C0020C375 = {
+						CreatedOnToolsVersion = 15.1;
+					};
+					254BBB732BDA95600020C375 = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = 254BBB5D2BDA955C0020C375;
+					};
+					254BBB7D2BDA95600020C375 = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = 254BBB5D2BDA955C0020C375;
+					};
+				};
+			};
+			buildConfigurationList = 254BBB592BDA955C0020C375 /* Build configuration list for PBXProject "DenemeBilet" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 254BBB552BDA955C0020C375;
+			productRefGroup = 254BBB5F2BDA955C0020C375 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				254BBB5D2BDA955C0020C375 /* DenemeBilet */,
+				254BBB732BDA95600020C375 /* DenemeBiletTests */,
+				254BBB7D2BDA95600020C375 /* DenemeBiletUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		254BBB5C2BDA955C0020C375 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				254BBB6E2BDA95600020C375 /* LaunchScreen.storyboard in Resources */,
+				254BBB6B2BDA95600020C375 /* Assets.xcassets in Resources */,
+				254BBB692BDA955C0020C375 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		254BBB722BDA95600020C375 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		254BBB7C2BDA95600020C375 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		254BBB5A2BDA955C0020C375 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				254BBB982BDA96F30020C375 /* Saat.swift in Sources */,
+				254BBB662BDA955C0020C375 /* ViewController.swift in Sources */,
+				254BBB622BDA955C0020C375 /* AppDelegate.swift in Sources */,
+				8B321B1E2BDE8DD90017B998 /* BiletViewController.swift in Sources */,
+				254BBB942BDA963E0020C375 /* Yolcu.swift in Sources */,
+				254BBB922BDA95940020C375 /* Bilet.swift in Sources */,
+				254BBB962BDA96BC0020C375 /* Tarih.swift in Sources */,
+				254BBB642BDA955C0020C375 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		254BBB702BDA95600020C375 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				254BBB792BDA95600020C375 /* DenemeBiletTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		254BBB7A2BDA95600020C375 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				254BBB832BDA95600020C375 /* DenemeBiletUITests.swift in Sources */,
+				254BBB852BDA95600020C375 /* DenemeBiletUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		254BBB762BDA95600020C375 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 254BBB5D2BDA955C0020C375 /* DenemeBilet */;
+			targetProxy = 254BBB752BDA95600020C375 /* PBXContainerItemProxy */;
+		};
+		254BBB802BDA95600020C375 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 254BBB5D2BDA955C0020C375 /* DenemeBilet */;
+			targetProxy = 254BBB7F2BDA95600020C375 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		254BBB672BDA955C0020C375 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				254BBB682BDA955C0020C375 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		254BBB6C2BDA95600020C375 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				254BBB6D2BDA95600020C375 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		254BBB862BDA95600020C375 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		254BBB872BDA95600020C375 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		254BBB892BDA95600020C375 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GAB63YR65T;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DenemeBilet/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = denemebilet.DenemeBilet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		254BBB8A2BDA95600020C375 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GAB63YR65T;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DenemeBilet/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = denemebilet.DenemeBilet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		254BBB8C2BDA95600020C375 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GAB63YR65T;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = denemebilet.DenemeBiletTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DenemeBilet.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DenemeBilet";
+			};
+			name = Debug;
+		};
+		254BBB8D2BDA95600020C375 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GAB63YR65T;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = denemebilet.DenemeBiletTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DenemeBilet.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DenemeBilet";
+			};
+			name = Release;
+		};
+		254BBB8F2BDA95600020C375 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GAB63YR65T;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = denemebilet.DenemeBiletUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DenemeBilet;
+			};
+			name = Debug;
+		};
+		254BBB902BDA95600020C375 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GAB63YR65T;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = denemebilet.DenemeBiletUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DenemeBilet;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		254BBB592BDA955C0020C375 /* Build configuration list for PBXProject "DenemeBilet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				254BBB862BDA95600020C375 /* Debug */,
+				254BBB872BDA95600020C375 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		254BBB882BDA95600020C375 /* Build configuration list for PBXNativeTarget "DenemeBilet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				254BBB892BDA95600020C375 /* Debug */,
+				254BBB8A2BDA95600020C375 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		254BBB8B2BDA95600020C375 /* Build configuration list for PBXNativeTarget "DenemeBiletTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				254BBB8C2BDA95600020C375 /* Debug */,
+				254BBB8D2BDA95600020C375 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		254BBB8E2BDA95600020C375 /* Build configuration list for PBXNativeTarget "DenemeBiletUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				254BBB8F2BDA95600020C375 /* Debug */,
+				254BBB902BDA95600020C375 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 254BBB562BDA955C0020C375 /* Project object */;
+}
